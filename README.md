@@ -26,6 +26,9 @@ pip install arxivabscraper --upgrade
 
 ## Examples
 
+There is a tutorial on how to use the package directly on google colab [here](https://github.com/MohamedElashri/Arxiv-Aabstract-scraper/blob/main/arxivabscraper_tutorial.ipynb)
+ . 
+it provides the basic usage to the package and can be run directly on the notebook
 
 You can directly use `arxivabscraper` in your scripts. Let's import `arxivabscraper`
 and create a scraper to fetch all preprints in condensed matter physics category
