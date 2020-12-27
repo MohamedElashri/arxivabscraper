@@ -1,7 +1,7 @@
-import arxivscraper
+import arxivabscraper
 import pandas as pd
 
-scraper = arxivscraper.Scraper(category='physics:cond-mat', date_from='2018-05-02',date_until='2020-06-02')
+scraper = arxivabscraper.Scraper(category='physics:cond-mat', date_from='2018-05-02',date_until='2020-06-02')
 
 output = scraper.scrape()
 cols = ('id','abstract')
