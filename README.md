@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.889853.svg)](https://doi.org/10.5281/zenodo.889853)
 
-# arXivabssScraper
+# arxivabsscraper
 An ArXiV scraper to retrieve abstracts from given categories and date range.
 
 ## Install
