@@ -8,7 +8,7 @@ An ArXiV scraper to retrieve abstracts from given categories and date range.
 Use `pip` (or `pip3` for python3):
 
 ```bash
-$ pip install arXivabssScraper
+$ pip install arxivabsscraper
 ```
 
 or download the source and use `setup.py`:
