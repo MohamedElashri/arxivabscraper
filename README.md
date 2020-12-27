@@ -27,14 +27,13 @@ pip install arxivabsscraper --upgrade
 
 ## Examples
 
-### Without filtering
 
-You can directly use `arXivabssScraper` in your scripts. Let's import `arXivabssScraper`
+You can directly use `arxivabsscraper` in your scripts. Let's import `arXivabssScraper`
 and create a scraper to fetch all preprints in condensed matter physics category
 from 2 May 2018 until 2 June 2020 (for other categories, see below):
 
 ```python
-import arXivabssScraper
+import arxivabsscraper
 scraper = arXivabssScraper.Scraper(category='physics:cond-mat', date_from='2018-05-02',date_until='2020-06-02')
 ```
 Once we built an instance of the scraper, we can start the scraping:
