@@ -1,5 +1,5 @@
 
-# arxivabsscraper
+# arxivabscraper
 An ArXiV scraper to retrieve abstracts from given categories and date range.
 
 ## Install
@@ -7,7 +7,7 @@ An ArXiV scraper to retrieve abstracts from given categories and date range.
 Use `pip` (or `pip3` for python3):
 
 ```bash
-$ pip install arxivabsscraper
+$ pip install arxivabscraper
 ```
 
 or download the source and use `setup.py`:
@@ -16,24 +16,24 @@ or download the source and use `setup.py`:
 $ python setup.py install
 ```
 
-or if you do not want to install the module, copy `arxivabsscraper.py` into your working
+or if you do not want to install the module, copy `arxivabscraper.py` into your working
 directory.
 
 To update the module using `pip`:
 ```bash
-pip install arxivabsscraper --upgrade
+pip install arxivabscraper --upgrade
 ```
 
 ## Examples
 
 
-You can directly use `arxivabsscraper` in your scripts. Let's import `arxivabsscraper`
+You can directly use `arxivabscraper` in your scripts. Let's import `arxivabscraper`
 and create a scraper to fetch all preprints in condensed matter physics category
 from 2 May 2018 until 2 June 2020 (for other categories, see below):
 
 ```python
-import arxivabsscraper
-scraper = arxivabsscraper.Scraper(category='physics:cond-mat', date_from='2018-05-02',date_until='2020-06-02')
+import arxivabscraper
+scraper = arxivabscraper.Scraper(category='physics:cond-mat', date_from='2018-05-02',date_until='2020-06-02')
 ```
 Once we built an instance of the scraper, we can start the scraping:
 
