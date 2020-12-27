@@ -22,7 +22,7 @@ directory.
 
 To update the module using `pip`:
 ```bash
-pip install arXivabssScraper --upgrade
+pip install arxivabsscraper --upgrade
 ```
 
 ## Examples
