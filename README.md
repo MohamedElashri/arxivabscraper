@@ -17,7 +17,7 @@ or download the source and use `setup.py`:
 $ python setup.py install
 ```
 
-or if you do not want to install the module, copy `arXivabssScraper.py` into your working
+or if you do not want to install the module, copy `arxivabsscraper.py` into your working
 directory.
 
 To update the module using `pip`:
@@ -28,7 +28,7 @@ pip install arxivabsscraper --upgrade
 ## Examples
 
 
-You can directly use `arxivabsscraper` in your scripts. Let's import `arXivabssScraper`
+You can directly use `arxivabsscraper` in your scripts. Let's import `arxivabsscraper`
 and create a scraper to fetch all preprints in condensed matter physics category
 from 2 May 2018 until 2 June 2020 (for other categories, see below):
 
