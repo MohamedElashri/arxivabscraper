@@ -15,7 +15,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name = "arxivabscraper",
-    version = "0.1",
+    version = "0.3",
     description = "Get arXiv.org abstracts within a date range and category",
     long_description=long_description,
     long_description_content_type="text/markdown",
