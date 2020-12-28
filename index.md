@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4395835.svg)](https://doi.org/10.5281/zenodo.4395835)
+
+
 ## Welcome to arxivabscraper
 
 This  is an ArXiV scraper to retrieve abstracts from given categories and date range. A python module for scraping arxiv abstracts for NLP testing purpose originally but can be used by researchers wants to keep up with the latest devlopment in their fields. 
