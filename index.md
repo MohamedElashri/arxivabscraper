@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## Welcome to arxivabscraper
 
-You can use the [editor on GitHub](https://github.com/MohamedElashri/Arxiv-Aabstract-scraper/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This  is an ArXiV scraper to retrieve abstracts from given categories and date range. A python module for scraping arxiv abstracts for NLP testing purpose originally but can be used by researchers wants to keep up with the latest devlopment in their fields. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Installation 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Finally you can save the output in your favorite format or readily convert it into a pandas dataframe:
+```python
+import pandas as pd
+cols = ('categories', 'abstract')
+df = pd.DataFrame(output,columns=cols)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Categories
+Here is a list of all categories available on ArXiv.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MohamedElashri/Arxiv-Aabstract-scraper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+| Category | Code |
+| --- | --- |
+| Computer Science | `cs` |
+| Economics | `econ` |
+| Electrical Engineering and Systems Science | `eess` |
+| Mathematics | `math` |
+| Physics | `physics` |
+| Astrophysics | `physics:astro-ph` |
+| Condensed Matter | `physics:cond-mat` |
+| General Relativity and Quantum Cosmology | `physics:gr-qc` |
+| High Energy Physics - Experiment | `physics:hep-ex` |
+| High Energy Physics - Lattice | `physics:hep-lat` |
+| High Energy Physics - Phenomenology | `physics:hep-ph` |
+| High Energy Physics - Theory | `physics:hep-th` |
+| Mathematical Physics | `physics:math-ph` |
+| Nonlinear Sciences | `physics:nlin` |
+| Nuclear Experiment | `physics:nucl-ex` |
+| Nuclear Theory | `physics:nucl-th` |
+| Physics (Other) | `physics:physics` |
+| Quantum Physics | `physics:quant-ph` |
+| Quantitative Biology | `q-bio` |
+| Quantitative Finance | `q-fin` |
+| Statistics | `stat` |
 
-### Support or Contact
+## Contributing
+Ideas/bugs/comments? Please open an issue or submit a pull request on Github.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+This work is based on the arxivscraper from 
+Mahdi Sadjadi (2017). arxivscraper: Zenodo. http://doi.org/10.5281/zenodo.889853
