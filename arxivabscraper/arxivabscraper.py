@@ -130,8 +130,7 @@ class Scraper(object):
                     print('Got 503. Retrying after {0:d} seconds.'.format(self.t))
                     time.sleep(self.t)
                     continue
-                else:
-                    raise
+                raise
             k += 1
             xml = response.read()
             root = ET.fromstring(xml)
