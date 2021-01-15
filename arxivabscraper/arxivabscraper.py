@@ -156,15 +156,13 @@ class Scraper():
                 return 1
             if token is None or token.text is None:
                 break
-            else:
-                url = BASE + 'resumptionToken=%s' % token.text
+            url = BASE + 'resumptionToken=%s' % token.text
 
             ty = time.time()
             elapsed += (ty-tx)
             if elapsed >= self.timeout:
                 break
-            else:
-                tx = time.time()
+            tx = time.time()
 
         t1 = time.time()
         print('fetching is completed in {0:.1f} seconds.'.format(t1 - t0))
