@@ -7,5 +7,5 @@ output = scraper.scrape()
 cols = ('id','abstract')
 df = pd.DataFrame(output,columns=cols)
 df.to_csv('df.csv') 
-with open('df', 'w') as f: 
+with open('df', 'r+') as f: 
 f.write('0123456789abcdef')
