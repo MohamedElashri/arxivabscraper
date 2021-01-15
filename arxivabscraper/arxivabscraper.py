@@ -28,7 +28,7 @@ class Record():
     """
 
     def __init__(self, xml_record):
-        """if not isinstance(object,ET.Element):
+        """If not isinstance(object,ET.Element):
         raise TypeError("")"""
         self.xml = xml_record
         self.abstract = self._get_text(ARXIV, 'abstract')
