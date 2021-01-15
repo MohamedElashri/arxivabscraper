@@ -40,7 +40,8 @@ class Record(object):
         except:
             return ''
         
-    def _get_name(self, parent, attribute):
+    @staticmethod
+    def _get_name(parent, attribute):
         try: 
             return parent.find(ARXIV + attribute).text.lower()
         except:
