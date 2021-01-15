@@ -88,7 +88,9 @@ class Scraper(object):
     ```
     """
 
-    def __init__(self, category, date_from=None, date_until=None, t=30, timeout=300, filters={}):
+    def __init__(self, category, date_from=None, date_until=None, t=30, timeout=300, filters=None):
+        if filters is None:
+            filters = {}
         self.cat = str(category)
         self.t = t
         self.timeout = timeout
