@@ -1,7 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4395835.svg)](https://doi.org/10.5281/zenodo.4395835)
 
 # arxivabscraper
-An ArXiV scraper to retrieve abstracts from given categories and date range. [website](https://mohamedelashri.github.io/arxivabscraper/)
+An ArXiV scraper to retrieve abstracts from given categories and date range.
+[website](https://mohamedelashri.github.io/arxivabscraper/)
 
 ## Install
 
