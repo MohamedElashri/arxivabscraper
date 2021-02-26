@@ -35,7 +35,7 @@ There is a tutorial on how to use the package directly on google colab [here](ht
 it provides the basic usage to the package and can be run directly on the notebook
 
 You can directly use `arxivabscraper` in your scripts. Let's import `arxivabscraper`
-and create a scraper to fetch all preprints in condensed matter physics category
+and create a scraper to fetch all preprints in high energy physics theory category
 from 2 May 2018 until 2 June 2020 (for other categories, see below):
 
 ```python
