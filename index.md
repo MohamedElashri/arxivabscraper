@@ -36,7 +36,7 @@ it provides the basic usage to the package and can be run directly on the notebo
 
 You can directly use `arxivabscraper` in your scripts. Let's import `arxivabscraper`
 and create a scraper to fetch all preprints in high energy physics theory category
-from 2 May 2018 until 2 June 2020 (for other categories, see below):
+from 27 May 2018 until 7 June 2020 (for other categories, see below):
 
 ```python
 import arxivabscraper
